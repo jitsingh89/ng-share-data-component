@@ -1,0 +1,8 @@
+.child {
+    top: 250PX;
+    width: 36%;
+    height: 210px;
+    left: 30px;
+    position: absolute;
+    background-color:slateblue;
+}

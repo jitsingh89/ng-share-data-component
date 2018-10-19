@@ -1,0 +1,8 @@
+<h4> Parent  </h4>
+<p>Message using @ViewChild: {{ messageViewChild }}</p>
+<p>Message using @Output: {{ messageOutput }}</p>
+<p>Message using @Service: {{ massageSibling }}</p>
+
+<div class="child">
+    <app-child [messageInput]="parentMessage" (messageEvent)="receiveMessage($event)"></app-child>
+</div>
